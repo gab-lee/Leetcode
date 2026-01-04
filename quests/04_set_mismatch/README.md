@@ -24,7 +24,7 @@ Constraints:
 
 ## Status: Completed
 
-- Runtime: 23ms (27.27%)
+- Runtime: 9ms (69.64%)
 - Memory: 19.06 (54.82%)
 
 ## Approach
@@ -34,5 +34,6 @@ Constraints:
 - Iterate through nums and used a hash table to store unique occurence of numbers.
 - If iterated value is found in set, store it as duplicate.
 - Find the missing number by calculating the correct value of 1-n and minusing the sum of seen values.
+- Removed nums.sorted -> unnecessary step.
 
 //Despite completing it, the performance of the code seems to fall behind others.
