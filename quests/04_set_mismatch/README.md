@@ -29,12 +29,10 @@ Constraints:
 
 ## Approach
 
-~~
-
-- Sort the list and set a comparator as the first element of the list.
-- Iterate nums, storing the old number, and comparing it with the current number.
-  ~~
+- ~~Sort the list and set a comparator as the first element of the list.~~
+- ~~Iterate nums, storing the old number, and comparing it with the current number.~~
 - Iterate through nums and used a hash table to store unique occurence of numbers.
 - If iterated value is found in set, store it as duplicate.
 - Find the missing number by calculating the correct value of 1-n and minusing the sum of seen values.
-  //Despite completing it, the performance of the code seems to fall behind others.
+
+//Despite completing it, the performance of the code seems to fall behind others.
