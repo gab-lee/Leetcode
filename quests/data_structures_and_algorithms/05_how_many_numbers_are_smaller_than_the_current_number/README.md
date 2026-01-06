@@ -30,7 +30,7 @@ Constraints:
 2 <= nums.length <= 500
 0 <= nums[i] <= 100
 
-## Status:
+## Status: Completed
 
 - Runtime: 0ms (100%)
 - Memory: 17.22MB (94.84)

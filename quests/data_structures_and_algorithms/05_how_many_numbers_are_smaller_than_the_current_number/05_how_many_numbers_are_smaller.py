@@ -20,7 +20,7 @@ class Solution:
         for i in nums:
             l_smaller_num_than_current += [d_smaller_num_than_current[i]]
 
-        return l_smaller_num_than_current ,d_smaller_num_than_current
+        return l_smaller_num_than_current
 
 if __name__ == "__main__":        
     s = Solution()
