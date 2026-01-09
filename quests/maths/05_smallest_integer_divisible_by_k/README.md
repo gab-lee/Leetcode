@@ -28,11 +28,25 @@ Constraints:
 
 1 <= k <= 105
 
-## Status:
+## Status: Completed
 
-- Runtime: 0ms (100%)
-- Memory: 19.26MB (16.01%)
+- Runtime: 14ms (35.21%)
+- Memory: 19.37MB (20.67%)
 
 ## Approach (without converting into a string)
-
+```
+- return -1 if k is even or if k is a multiple of 5. 
 - n for n%k == 0 and n is only contains 1 and is > 0.
+- remainders will repeat. 
+|-- remainder for %5 is 1 and that keeps repeating
+|-- remainder for %3 is 1,2,0
+|-- remainder for %7 is 1,4,6
+|-- Pigeonhole principle, %7 can only have 7 outcomes [0,1,2,3,4,5,6]
+- ~~grow n each iteration~~ Apparently thi`s takes up a lot of time/memory
+|-- Instead: grow the remainder `remainder = (remainder*10 + 1) % k`
+- Proof
+|-- Rn+1 ​= 10 Rn​+1 
+|-- remainder_n = Rn % k
+|-- Rn+1 **% k** ​= 10 Rn​+1 **% k** //add %k to both sides
+|-- remainder_n+1 ​= 10 remainder_n **% k** //add %k to both sides 
+```

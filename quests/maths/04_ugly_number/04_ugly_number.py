@@ -10,13 +10,12 @@ class Solution:
             return True 
         else: 
             n=self.divide_by_div(n,2)
-            print(n)
+            n=self.divide_by_div(n,3)
             n=self.divide_by_div(n,5)
-            n=self.divide_by_div(n,7)
             if n == 1:
-                return False
+                return True
             else:
-                return True 
+                return False 
         
 
 if __name__ == "__main__":
