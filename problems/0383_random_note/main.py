@@ -1,7 +1,7 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         d = {}
-
+        
         if len(ransomNote)> len(magazine):
             return False
 
