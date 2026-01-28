@@ -6,7 +6,7 @@ class Solution:
         for ch in s:
             if ch in parentheses.values():
                 stack.append(ch)
-                print(stack)
+                #print(stack)
             else: #closing 
                 if not stack: #no opening to pair with
                     return False
