@@ -18,7 +18,8 @@ class Solution:
                 temp = helper(n//2,x)
                 return temp * temp
             else: 
-                return helper(n-1,x)*x
+                temp = helper((n-1)//2,x)
+                return temp * temp * x
 
         return helper(n,x)
 
