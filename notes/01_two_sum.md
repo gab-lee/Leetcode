@@ -1,7 +1,7 @@
 # Two Sum 
 
 ## Related Leetcode questions
-- **0001 Two Sum**: unsorted array, return indices
+- [**0001 Two Sum**]([problems/0001_two_sum](https://github.com/gab-lee/Leetcode/tree/main/problems/0001_two_sum)): unsorted array, return indices
 - **0167 Two Sum II**: sorted array, return indices (1-indexed)
 - **0170 Two Sum III**: design a data structure for add/find operations
 - **0653 Two Sum IV**: Two sum in binary search tree
