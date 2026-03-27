@@ -1,4 +1,4 @@
-#[Two Sum](hhttps://leetcode.com/problems/two-sum/description/)
+# [Two Sum](hhttps://leetcode.com/problems/two-sum/description/)
 
 ## Task
 
