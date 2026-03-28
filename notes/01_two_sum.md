@@ -2,7 +2,7 @@
 
 ## Related Leetcode questions
 - [**0001 Two Sum**](https://github.com/gab-lee/Leetcode/tree/main/problems/0001_two_sum): unsorted array, return indices
-- **0167 Two Sum II**: sorted array, return indices (1-indexed)
+- [**0167 Two Sum II**](https://github.com/gab-lee/Leetcode/tree/main/problems/0167_two_sum_II_input_array_is_sorted): sorted array, return indices (1-indexed)
 - **0170 Two Sum III**: design a data structure for add/find operations
 - **0653 Two Sum IV**: Two sum in binary search tree
 - **0015 3Sum**: find all unique triplets that sum to 0
