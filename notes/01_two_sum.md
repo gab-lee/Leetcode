@@ -5,7 +5,7 @@
 - [**0167 Two Sum II**](https://github.com/gab-lee/Leetcode/tree/main/problems/0167_two_sum_II_input_array_is_sorted): sorted array, return indices (1-indexed)
 - **0170 Two Sum III**: design a data structure for add/find operations
 - **0653 Two Sum IV**: Two sum in binary search tree
-- **0015 3Sum**: find all unique triplets that sum to 0
+- [**0015 3Sum**](https://github.com/gab-lee/Leetcode/tree/main/problems/0015_3sum): find all unique triplets that sum to 0
 - **0016 3Sum closest**: find triplet closest to target 
 - **0259 3Sum Smaller**:count triplets with sum less than target
 - **0018 4Sum**: find all unique quadruplets that sum to target
