@@ -26,7 +26,7 @@ Find all combinations of K numbers from an array that sum to a target value.
 
 **1. Two Pointers (when sorted)**
 - Move left/right pointers based on sum comparison
-- Skip duplicates by comparing adjacent values
+- Skip duplicates by comparing adjacent values (only applicable when there is >1 possible solution)
 - Time: O(n), Space: O(1)
 - **Use for:** 2Sum II, 3Sum, 4Sum
 
