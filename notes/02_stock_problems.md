@@ -3,7 +3,7 @@
 ## Related Leetcode questions
 - [**0121 Best Time to Buy and Sell Stock**](https://github.com/gab-lee/Leetcode/tree/main/problems/0121_best_time_to_buy_and_sell_stock):
 Find max profit from one buy + one sell (buy before sell).
-- **0122 Best Time to Buy and Sell Stock II**:
+- [**0122 Best Time to Buy and Sell Stock II**](https://github.com/gab-lee/Leetcode/tree/main/problems/0122_best_time_to_and_sell_stock_II):
 Unlimited transactions, but must sell before buying again.
 - **0123 Best Time to Buy and Sell Stock III**:
 Max profit with at most 2 transactions.
