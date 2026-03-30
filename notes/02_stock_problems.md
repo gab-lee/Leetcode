@@ -1,7 +1,7 @@
 # Stock Problems
 
 ## Related Leetcode questions
-- **0121 Best Time to Buy and Sell Stock**:
+- [**0121 Best Time to Buy and Sell Stock**](https://github.com/gab-lee/Leetcode/tree/main/problems/0121_best_time_to_buy_and_sell_stock):
 Find max profit from one buy + one sell (buy before sell).
 - **0122 Best Time to Buy and Sell Stock II**:
 Unlimited transactions, but must sell before buying again.
