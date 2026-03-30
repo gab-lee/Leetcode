@@ -5,9 +5,9 @@ class Solution {
             return 0
         }
         //initialilse left and right pointers
-        var left = 0
-        var right = 1
-        var max_profit = 0
+        var left: Int = 0
+        var right: Int = 1
+        var max_profit: Int = 0
         //iterate n-1 times, so right pointer doesn't go out of frame
         for _ in 0..<prices.count - 1 {
             //determine profit 
